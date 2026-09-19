@@ -1,4 +1,4 @@
-﻿// Iro.h : Include file for standard system include files,
+// Iro.h : Include file for standard system include files,
 // or project specific include files.
 
 #pragma once
