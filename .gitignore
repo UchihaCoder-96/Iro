@@ -1,63 +1,63 @@
+# Build directories
+
+build/
+out/
+cmake-build-*/
+
 # Visual Studio
+
 .vs/
-*.user
 *.suo
+*.user
 *.userosscache
 *.sln.docstates
 
-# Build output
-[Bb]in/
-[Oo]bj/
-[Dd]ebug/
-[Rr]elease/
-x64/
-x86/
+# CMake generated files
+
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+Makefile
 
 # Visual Studio generated files
+
+Debug/
+Release/
+x64/
+x86/
+*.obj
 *.pdb
 *.ilk
-*.nupkg
-*.snupkg
+*.exe
+*.dll
+*.lib
 
-# Test results
-[Tt]est[Rr]esult*/
-[Bb]uild[Ll]og.*
-*.trx
+# Shader compilation output
 
-# NuGet
-packages/
-*.nuget.props
-*.nuget.targets
+*.spv
 
-# Code coverage
-coverage/
-*.coverage
-*.coveragexml
+# C/C++ intermediate files
 
-# Rider / JetBrains
-.idea/
-*.sln.iml
+*.o
+*.a
+*.so
+*.dylib
 
-# VS Code
-.vscode/
+# Logs
 
-# ReSharper
-_ReSharper*/
-*.[Rr]e[Ss]harper
-*.DotSettings.user
-
-# Generated documentation
-[Dd]ocs/_site/
-
-# OS files
-.DS_Store
-Thumbs.db
-Desktop.ini
-
-# Temporary files
-*.tmp
-*.temp
 *.log
 
-# Publish output
-publish/
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# User-specific files
+
+*.user
+*.suo
+*.VC.db
+*.VC.VC.opendb
